@@ -18,7 +18,7 @@ export function SideBar({
 }: SideBarProps) {
   const selectedGenreIdString = useMemo(() => {
     return selectedGenreId.toString();
-  }, [selectedGenreId]);
+  }, []);
 
   return (
     <nav className="sidebar">
